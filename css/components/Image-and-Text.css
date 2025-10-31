@@ -52,7 +52,7 @@
   width: 5000px;
 }
 
-.text-image-section .image img {
+.text-image-section .image {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
@@ -60,4 +60,5 @@
 
 #text-image-2 {
   margin-top: 1px;
+
 }
