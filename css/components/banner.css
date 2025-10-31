@@ -1,0 +1,46 @@
+
+.banner {
+	width: 100%;;
+}
+
+.banner-no-products {
+	height: 250px;
+}
+
+.top-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.logo-area {
+  text-align: center;
+  margin-top: 10px;
+}
+.site-logo {
+  height: 100px;
+}
+.tagline {
+  margin: 4px 0 14px;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.main-nav {
+  display: flex;
+  gap: 30px;
+  margin-top: 6px;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #577047;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color .25s ease;
+}
+.main-nav a:hover {
+  color: green;
+}

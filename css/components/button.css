@@ -1,0 +1,37 @@
+.btn-blue {
+	background-color: #6D71DD;
+	padding: 15px 20px;
+	border-radis: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto' sans-serif;
+}
+.banner-container {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+.boutique-btn {
+ position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  background-color: #7D8F61; 
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 25px 65px;
+  border-radius: 50px;     
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  z-index: 2;
+}
+
+.boutique-btn:hover {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.22);
+  transform: translate(-50%, -50%) scale(1.2);
+}
+

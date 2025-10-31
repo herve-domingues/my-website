@@ -1,0 +1,62 @@
+
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/Image-and-text.css");
+@import url("components/container.css");
+
+body {
+	font-family: 'lora', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto' sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+
+.texte-centre {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 50px;
+  height: 700px;
+}
+
+.texte-centre h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.texte-centre p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+p {
+	margin: 20px auto;
+	padding: 0px 100px;
+}
+
+.white {
+	background-color: white;
+}
+
+#image-boutique {
+  width: 800px;
+  max-width: 70%;
+  height: auto;
+}
