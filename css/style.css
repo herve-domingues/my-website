@@ -3,7 +3,7 @@
 @import url("components/banner.css");
 @import url("components/button.css");
 @import url("components/banner.css");
-@import url("components/Image-and-text.css");
+@import url("components/Image-and-Text.css");
 @import url("components/container.css");
 
 body {
@@ -60,3 +60,4 @@ p {
   max-width: 70%;
   height: auto;
 }
+
